@@ -38,6 +38,5 @@ const styles = {
         "min-h-screen",
         "bg-peacock",
         "text-jadeite-100",
-        "grid grid-cols-12",
     )
 }
