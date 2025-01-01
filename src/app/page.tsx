@@ -60,10 +60,16 @@ export default function Home() {
                 </InfoBlock>
                 <InfoBlock title={"When"}>
                     <p className="text-md font-medium leading-none">
-                        May 17th, 2025
+                        Saturday, May 17th, 2025
                     </p>
-                    <p className="text-md font-medium leading-none">
-                        2:00 P.M.
+                    <p className="text-sm font-medium leading-none">
+                        2:00 P.M. <span className={"italic"}>Arrival</span>
+                    </p>
+                    <p className="text-sm font-medium leading-none">
+                        3:00 P.M. <span className={"italic"}>Ceremony</span>
+                    </p>
+                    <p className="text-sm font-medium leading-none">
+                        5:00 P.M. <span className={"italic"}>Dinner</span>
                     </p>
                     <p className="text-sm font-medium leading-none text-peacock-700 hover:underline">
                         <a href={"/joeyandnikki.wedding.ics"}>Add to your calendar</a>
