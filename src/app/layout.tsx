@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body className={styles.body}>{children}</body>
+            <body className={styles.body}>{children}</body>
         </html>
     );
 }
@@ -36,7 +36,7 @@ const styles = {
         gilroy.variable,
         raleway.className,
         "min-h-screen",
-        "bg-peacock",
-        "text-jadeite-100",
+        "bg-jadeite-50",
+        "text-peacock-900",
     )
 }
