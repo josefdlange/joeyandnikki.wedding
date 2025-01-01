@@ -44,7 +44,7 @@ export default function Home() {
                        className="w-full md:w-1/3 rounded-full -mb-[50%] md:-mb-48"/>
             </div>
             <div
-                className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 md:max-w-[80%] gap-12 md:gap-16 p-8 max-sm:pt-[45vw] md:p-12 lg:p-24">
+                className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 md:max-w-[80%] gap-12 md:gap-16 p-8 max-md:pt-[45vw] md:p-12 lg:p-24">
                 <InfoBlock title={"Where"}>
                     <p className="text-md font-medium leading-none">
                         The Camp Pow Wow Lodge<br/> at Menomonee Park
