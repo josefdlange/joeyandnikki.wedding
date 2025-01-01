@@ -49,8 +49,8 @@ export default function Home() {
                     <p className="text-md font-medium leading-none">
                         The Camp Pow Wow Lodge<br/> at Menomonee Park
                     </p>
-                    <p className="text-md font-medium leading-none text-peacock-800">
-                        W220 N7884 Town Line Road,<br/>
+                    <p className="text-sm font-medium leading-none text-peacock-800">
+                        W220 N7884 Town Line Road<br/>
                         Menomonee Falls, WI 53051
                     </p>
                     <p className="text-sm font-medium leading-none text-peacock-700 hover:underline">
@@ -77,9 +77,9 @@ export default function Home() {
                 </InfoBlock>
                 <InfoBlock title={"RSVP"}>
                     <p className="text-md font-medium leading-none">
-                        Please RSVP by April 15th, 2025
+                        Please RSVP by April 15th, 2025,
                     </p>
-                    <p className="text-md font-medium leading-none">
+                    <p className="text-sm font-medium leading-none">
                         to <a href="mailto:josef.d.lange@gmail.com"
                               className="text-peacock-700 hover:underline">Joey</a> or <a
                         href="mailto:carternm27@gmail.com" className="text-peacock-700 hover:underline">Nikki</a> or via
@@ -93,25 +93,33 @@ export default function Home() {
                 </InfoBlock>
                 <InfoBlock title={"Parking"}>
                     <p className="text-md font-medium leading-none">
-                        Parking is available inside the park. <span className="italic">Please provide your license plate number</span> so we can cover your parking fee.
+                        Parking is available inside the park. <span className="italic">Please provide your license plate number</span> so
+                        we can cover your parking fee.
                     </p>
                 </InfoBlock>
                 <InfoBlock title={"Accommodations"}>
                     <p className="text-md font-medium leading-none">
-                        More information will be available soon.
+                        Room block available at Comfort Inn &amp; Suites, Germantown<br/>
+                    </p>
+                    <p className={"text-sm italic font-medium leading-none"}>
+                        Call <a
+                        href="tel:+12622936004" className="text-peacock-700 hover:underline">(262) 293-6004</a> and mention &quot;Carter/Lange Wedding&quot;
                     </p>
                 </InfoBlock>
                 <InfoBlock title={"Gifts"}>
                     <p className="text-md font-medium leading-none">
                         Your presence is the greatest gift we could ask for! <span className={"italic"}>Seriously! We mean it!</span>
                     </p>
-                    <p className="text-md font-medium leading-none">
-                        If you still feel inclined to give, we would be grateful for a contribution to our <a href="https://www.honeyfund.com/site/joeyandnikki" target="_blank" className="text-peacock-700 hover:underline">honeymoon fund</a>.
+                    <p className="text-sm font-medium leading-none">
+                        If you still feel inclined to give, we would be grateful for a contribution to our <a
+                        href="https://www.honeyfund.com/site/joeyandnikki" target="_blank"
+                        className="text-peacock-700 hover:underline">honeymoon fund</a>.
                     </p>
                 </InfoBlock>
                 <InfoBlock title={"Kids"}>
                     <p className="text-md font-medium leading-none">
-                        We want your kids to have a great time, too! Please let us know if you plan to bring children so we can make sure there are activities for them.
+                        We want your kids to have a great time, too! Please let us know if you plan to bring children so
+                        we can make sure there are activities for them.
                     </p>
                 </InfoBlock>
             </div>
