@@ -31,7 +31,7 @@ export default function Home() {
                             it&apos;s time to party
                         </h1>
                     </div>
-                    <a href="/updates" className="max-sm:hidden px-6 py-4 rounded-xl bg-peacock-100 text-peacock-900 font-bold text-3xl cursor-pointer md:animate-bounce">
+                    <a href="/updates" className="max-sm:hidden px-8 py-6 rounded-xl bg-peacock-100 text-peacock-900 font-bold text-4xl cursor-pointer md:animate-bounce">
                         🎉 Updates Here!!
                     </a>
                     <div className="flex flex-col md:flex-row justify-between w-full">
