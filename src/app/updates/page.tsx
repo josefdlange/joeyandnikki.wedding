@@ -44,7 +44,7 @@ export default function Updates() {
                     <Update title="Are you flying in? May 7th is the first day that TSA will require a 'REAL ID'">
                         Look for the little circle+star icon on your driver license, or bring your 
                         passport just in case! In addition, please anticipate longer security lines 
-                        due to other peoples' mass confusion over this change. More info here: 
+                        due to other peoples&apos; mass confusion over this change. More info here: 
                         <a className="hover:underline font-semibold" href="https://www.dhs.gov/real-id/are-you-real-id-ready" target="_blank">https://www.dhs.gov/real-id/are-you-real-id-ready</a>
                     </Update>
                     <Update title="Do you love camping? Our venue is located inside of Menomonee Park, which has a complete car-camping campground with limited facilities.">
@@ -59,10 +59,10 @@ export default function Updates() {
                         It can get a little brisk in the evenings in May, though the daytime weather should be gorgeous. 
                     </Update>
                     <Update title="Don't forget to bring your appetite!">
-                        There will be plenty of hors d'oeuvre, BBQ and sides, vegetarian options, CAKE, and drinks!
+                        There will be plenty of hors d&apos;oeuvre, BBQ and sides, vegetarian options, CAKE, and drinks!
                     </Update>
                     <Update title="The ceremony will start at 3pm, but you are welcome to come a little early for a pre-wedding drink!">
-                        As early as 2pm, some folks will be around — maybe even us!"
+                        As early as 2pm, some folks will be around — maybe even us!
                     </Update>
                     <Update title="The bridal party will be in shades of green, and the bride in white, but other than that wear whatever colorful outfit you want!">
                         Now is the time to wear that outfit you love but never had a place to wear it to before! Sequins! Neon! Just wear something that makes you happy!
