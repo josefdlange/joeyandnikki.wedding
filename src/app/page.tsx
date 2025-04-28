@@ -21,13 +21,19 @@ export default function Home() {
     return (
         <div>
             <div
-                className="flex flex-col md:flex-row gap-16 md:gap-32 items-end p-8 md:p-12 lg:p-24 bg-peacock text-jadeite-100">
-                <div className="space-y-16 lg:space-y-32">
+                className="md:relative flex flex-col md:flex-row gap-16 md:gap-32 items-end p-8 md:p-12 lg:p-24 bg-peacock text-jadeite-100">
+                <a href="/updates" className="md:hidden md:top-12 md:right-12 px-6 py-4 rounded-xl bg-peacock-100 text-peacock-800 font-bold text-3xl cursor-pointer md:animate-bounce">
+                    🎉 Updates Here!!
+                </a>
+                <div className="flex flex-col gap-16 lg:gap-32 items-start">
                     <div className="flex justify-start w-2/3">
                         <h1 className="text-6xl md:text-[9rem] font-extrabold leading-none font-gilroy">
                             it&apos;s time to party
                         </h1>
                     </div>
+                    <a href="/updates" className="max-sm:hidden px-6 py-4 rounded-xl bg-peacock-100 text-peacock-900 font-bold text-3xl cursor-pointer md:animate-bounce">
+                        🎉 Updates Here!!
+                    </a>
                     <div className="flex flex-col md:flex-row justify-between w-full">
                         <div className='space-y-4 md:space-y-8'>
                             <p className="text-2xl font-medium leading-none">
