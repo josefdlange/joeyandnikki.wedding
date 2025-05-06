@@ -34,6 +34,28 @@ export default function Updates() {
             </div>
             <div
                 className="md:max-w-4xl space-y-12 md:space-y-16 p-8 md:p-12 lg:p-24">
+
+                <div className="rounded-lg bg-peacock-800 p-6 text-jadeite-100">
+                    <h2 className="font-semibold text-2xl">Shuttle Option Available!</h2>
+                    <br />
+                    <p>
+                        We have arranged for a shuttle to ferry people from the&nbsp;
+                        <span className="font-bold">Comfort Inn & Suites</span> in Germantown 
+                        (Address: <a className="font-bold underline" target="_blank" href="https://www.google.com/maps/place/Comfort+Inn+%26+Suites+NW+Milwaukee/@43.1935765,-88.1333446,17z/data=!4m9!3m8!1s0x8804ffe50f31af45:0x1faba32b64ba3244!5m2!4m1!1i2!8m2!3d43.1935765!4d-88.1307697!16s%2Fg%2F11t75m9l2p">W177 N 9675 Riversbend Lane</a>)
+                    </p>
+                    <br />
+                    <p>
+                        The schedule is as follows:
+                    </p>
+                    <ul className="list-disc ms-5">
+                        <li><span className="font-bold">TO the venue:</span> TWO runs, starting at 2pm</li>
+                        <li><span className="font-bold">FROM the venue:</span> TWO runs, starting at 9:30pm</li>
+                    </ul>
+                    <br />
+                    <p>
+                        Please note that because the park has a day use fee assessed by entering a license plate, Uber and Lyft drivers may be unwilling to drive into the park.</p>
+                </div>
+
                 <ol className="list-decimal space-y-6 ps-2">
                     <Update title="If you haven't arranged your travel or lodging yet, we recommend doing it ASAP!">
                         Our wedding weekend is also the weekend of many graduation ceremonies at 
