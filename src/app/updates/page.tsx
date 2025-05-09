@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import Image from "next/image";
 
 
 const Update = ({title, children}: {title: string, children: ReactNode}) => {
@@ -40,16 +41,22 @@ export default function Updates() {
                     <br />
                     <p>
                         We have arranged for a shuttle to ferry people from the&nbsp;
-                        <span className="font-bold">Comfort Inn & Suites</span> in Germantown 
-                        (Address: <a className="font-bold underline" target="_blank" href="https://www.google.com/maps/place/Comfort+Inn+%26+Suites+NW+Milwaukee/@43.1935765,-88.1333446,17z/data=!4m9!3m8!1s0x8804ffe50f31af45:0x1faba32b64ba3244!5m2!4m1!1i2!8m2!3d43.1935765!4d-88.1307697!16s%2Fg%2F11t75m9l2p">W177 N 9675 Riversbend Lane</a>)
+                        <span className="font-bold">Comfort Inn &amp; Suites</span> in Germantown 
+                        (Address: <a className="font-bold underline" target="_blank" href="https://www.google.com/maps/place/Comfort+Inn+%26+Suites+NW+Milwaukee/@43.1935765,-88.1333446,17z/data=!4m9!3m8!1s0x8804ffe50f31af45:0x1faba32b64ba3244!5m2!4m1!1i2!8m2!3d43.1935765!4d-88.1307697!16s%2Fg%2F11t75m9l2p">W177 N 9675 Riversbend Lane</a>).
+
+                        Please park in the <span className="italic">back row of the overflow lot</span> (pictured below) and await pickup there.
                     </p>
+                    <br />
+
+                    <Image src={"/parking.png"} alt="Parking at Comfort Inn &amp; Suites" width={"1024"} height={"1024"}
+                           className="w-full rounded-xl"/>
                     <br />
                     <p>
                         The schedule is as follows:
                     </p>
                     <ul className="list-disc ms-5">
                         <li><span className="font-bold">TO the venue:</span> TWO runs, starting at 2pm</li>
-                        <li><span className="font-bold">FROM the venue:</span> TWO runs, starting at 9:30pm</li>
+                        <li><span className="font-bold">FROM the venue:</span> TWO+ runs, starting at 9:30pm</li>
                     </ul>
                     <br />
                     <p>
