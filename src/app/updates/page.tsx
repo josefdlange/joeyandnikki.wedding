@@ -44,7 +44,7 @@ export default function Updates() {
                         <span className="font-bold">Comfort Inn &amp; Suites</span> in Germantown 
                         (Address: <a className="font-bold underline" target="_blank" href="https://www.google.com/maps/place/Comfort+Inn+%26+Suites+NW+Milwaukee/@43.1935765,-88.1333446,17z/data=!4m9!3m8!1s0x8804ffe50f31af45:0x1faba32b64ba3244!5m2!4m1!1i2!8m2!3d43.1935765!4d-88.1307697!16s%2Fg%2F11t75m9l2p">W177 N 9675 Riversbend Lane</a>).
 
-                        If you're not staying at the hotel, please park in the <span className="italic">back row of the overflow lot</span> (pictured below) and await pickup there.
+                        If you are not staying at the hotel, please park in the <span className="italic">back row of the overflow lot</span> (pictured below) and await pickup there.
                     </p>
                     <br />
 
